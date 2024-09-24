@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceLibrary", "MathServiceLibrary\MathServiceLibrary.csproj", "{71B2ABEA-4D4D-4422-A4E2-402486D0927B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsClient1", "WindowsClient1\WindowsClient1.csproj", "{1834B8E5-67CB-48C3-8A31-DC7A3C76263A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4700B157-985F-408A-862F-01D4209B797A} = {4700B157-985F-408A-862F-01D4209B797A}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WASHostService", "http://localhost/WASHostService", "{4700B157-985F-408A-862F-01D4209B797A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{71b2abea-4d4d-4422-a4e2-402486d0927b}|MathServiceLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WASHostService"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\..\inetpub\wwwroot\WASHostService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WASHostService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WASHostService"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\..\inetpub\wwwroot\WASHostService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WASHostService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\..\inetpub\wwwroot\WASHostService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B2ABEA-4D4D-4422-A4E2-402486D0927B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1834B8E5-67CB-48C3-8A31-DC7A3C76263A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1834B8E5-67CB-48C3-8A31-DC7A3C76263A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1834B8E5-67CB-48C3-8A31-DC7A3C76263A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1834B8E5-67CB-48C3-8A31-DC7A3C76263A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4700B157-985F-408A-862F-01D4209B797A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4700B157-985F-408A-862F-01D4209B797A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4700B157-985F-408A-862F-01D4209B797A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4700B157-985F-408A-862F-01D4209B797A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

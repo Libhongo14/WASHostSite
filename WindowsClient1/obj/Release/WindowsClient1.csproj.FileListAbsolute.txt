@@ -1,0 +1,8 @@
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\bin\Release\WindowsClient1.exe.config
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\bin\Release\WindowsClient1.exe
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\bin\Release\WindowsClient1.pdb
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\obj\Release\WindowsClient1.Form1.resources
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\obj\Release\WindowsClient1.Properties.Resources.resources
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\obj\Release\WindowsClient1.csproj.GenerateResource.Cache
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\obj\Release\WindowsClient1.exe
+C:\Users\Libhongo\Documents\Visual Studio 2015\Projects\WCFTraining\WASHost\WindowsClient1\obj\Release\WindowsClient1.pdb
